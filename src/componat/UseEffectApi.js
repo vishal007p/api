@@ -2,6 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
+ 
+
 
 function UseEffectApi() {
 
@@ -34,7 +36,7 @@ function UseEffectApi() {
                                 return (
                                     <div className="col-10 col-md-4 mt-5"  >
                                         <div className="card p-2 "   >
-                                            <div  style={{display:'flex',alignItems:'center',justifyContent:'space-around'}}>
+                                            <div  style={{display:'flex',alignItems:'center',justifyContent:'space-around'}} >
                                                 <div className="image"> <img src={curElem.avatar_url} className="rounded" width="155" /> </div>
                                                 <div className="ml-3 w-100">
                                                     <h4 className="mb-0 mt-0 textLeft">{curElem.login}</h4>
