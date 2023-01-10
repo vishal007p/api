@@ -11,7 +11,7 @@ function UseEffectApi() {
         const response = await fetch('https://api.github.com/users');
         const data = await response.json();
         setUsers(data);
-        console.log(data)
+       
     }
 
 
